@@ -1,0 +1,23 @@
+.containerForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    border: 2px solid red;
+    margin: 4rem;
+}
+
+.form {
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.textArea {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+}

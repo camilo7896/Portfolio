@@ -1,0 +1,35 @@
+{
+    "portfolio": [{
+            "id": 1,
+            "name": "Dezzer",
+            "description": "Replica de Dezzer realizado con HTML y CSS ",
+            "img": "https://i.ibb.co/PTd1ngb/Deezer.png",
+            "gitHub": "https://github.com/camilo7896/Replica-de-Deezer.git",
+            "despliegue": "https://astonishing-salmiakki-f3b6d6.netlify.app/"
+        },
+        {
+            "id": 2,
+            "name": "Domos Lago Muisca",
+            "description": "Sitio web en HTML, CSS y JS para un cliente real",
+            "img": "https://i.ibb.co/RSFgs4d/domos.png",
+            "gitHub": "https://github.com/camilo7896/glamping.git",
+            "despliegue": "https:www.domoslagomuisca.com"
+        },
+        {
+            "id": 3,
+            "name": "Tetris",
+            "description": "Proyecto colaborativo Juego Tetris",
+            "img": "https://i.ibb.co/kD2JjS0/tetris.png",
+            "gitHub": "https://github.com/camilo7896/tetris_javascript.git",
+            "despliegue": "https://preeminent-nasturtium-584174.netlify.app/"
+        },
+        {
+            "id": 4,
+            "name": "Modificacion de sitio web",
+            "description": "En este projecto se realizaron cambios de imagenes, creacion de footer, centrar botones Creacion de tarjetas, insercion de GIF",
+            "img": "https://i.ibb.co/Lxdn8Gp/dbz.png",
+            "gitHub": "https://github.com/camilo7896/modificacion-de-sitio-web.git",
+            "despliegue": "https://camilo7896.github.io/modificacion-de-sitio-web/#"
+        }
+    ]
+}
