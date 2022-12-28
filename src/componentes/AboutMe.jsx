@@ -6,14 +6,14 @@ export default function AboutMe() {
   return (
     <>
       <div className={aboutStyle.containerPrincipal}>
+        <div class="text-center">
+          <h1 className={aboutStyle.title}>Sobre mi</h1>
+        </div>
         <div className={aboutStyle.container}>
           <div className={aboutStyle.avatar}>
-            <div className="avatar flex-col justify-center">
-              <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+            <div className=" avatar flex-col justify-center">
+              <div className=" ml-36 w-36 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                 <img src="https://placeimg.com/250/192/people" />
-              </div>
-              <div class="text-center m-4">
-                <h1>Sobre mi</h1>
               </div>
             </div>
           </div>

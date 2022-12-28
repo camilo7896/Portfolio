@@ -26,10 +26,30 @@
 }
 
 @media only screen and (min-width: 1000px) {
+    .containerPrincipal {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
     .container {
         margin: 5rem;
         display: flex;
         justify-content: space-around;
         flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .title {
+        margin-top: 1em;
+        font-size: 40px;
+        width: auto;
+    }
+    .avatar {
+        display: flex;
+        margin: 0;
+        padding-right: 10em;
+        padding-bottom: 1em;
+    }
+    .text {
+        font-size: 25px;
     }
 }
