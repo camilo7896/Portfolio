@@ -1,4 +1,5 @@
 import React from 'react'
+import Habilities from './Habilities'
 import aboutStyle from './modulosCss/about.module.css'
 
 export default function AboutMe() {
@@ -30,6 +31,11 @@ export default function AboutMe() {
           </div>
         </div>
       </div>
+
+      <div class={aboutStyle.title}>
+        <h1 className={aboutStyle.title}>Habilidades</h1>
+      </div>
+      <Habilities />
     </>
   )
 }
