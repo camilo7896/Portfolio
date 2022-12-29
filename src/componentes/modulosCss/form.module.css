@@ -5,6 +5,29 @@
     align-items: center;
 }
 
+.input {
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+}
+
+.buton {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(252, 252, 252);
+    background: rgb(30, 255, 0);
+}
+
 .logo {
     border: 2px solid red;
     margin: 4rem;

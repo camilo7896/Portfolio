@@ -35,10 +35,10 @@ function Navbar() {
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-info-content rounded-box w-52"
             >
               <li>
-                <Link to="/">Home</Link>
-                <Link to="Contact">Contact</Link>
-                <Link to="Portfolio">Projects</Link>
-                <Link to={'AboutMe'}>About Me</Link>
+                <Link to="/">Inicio</Link>
+                <Link to="Contact">Contacto</Link>
+                <Link to="Portfolio">Proyectos</Link>
+                <Link to={'AboutMe'}>Sobre mi</Link>
               </li>
             </ul>
           </div>
