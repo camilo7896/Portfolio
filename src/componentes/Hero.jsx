@@ -7,10 +7,10 @@ function Hero() {
         <div className={styles.boxHero}></div>
         <div className="hero-content text-center">
           <div className="max-w-md">
-            <h3 className="text-3xl font-bold">Hello my name is</h3>
+            <h3 className="text-3xl font-bold">Hola mi nombre es</h3>
             <h1 className="text-5xl font-bold pb-2">Cristian García</h1>
             <h2 className="text-3xl font-bold pb-10">Front-End Developer</h2>
-            <button className="btn btn-primary">contact me</button>
+            <button className="btn btn-primary">Contactame</button>
           </div>
         </div>
       </div>

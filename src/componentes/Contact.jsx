@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useForm } from 'react-hook-form'
 import styles from './modulosCss/global.module.css'
 import styleForm from './modulosCss/form.module.css'
@@ -19,17 +19,18 @@ export default function Contact() {
 
   return (
     <>
-      <h1 className={styles.title}>Contact</h1>
+      <h1 className={styles.title}>Contactame</h1>
       <div className={styleForm.containerForm}>
         {/* form */}
         <div className={styleForm.form}>
+          {/* Formulario */}
           <form onSubmit={handleSubmit(onSubmit)}>
-            <div className="inpus flex flex-col justify-center">
+            <div className=" flex flex-col justify-center">
               <div className=" p-2 boxImput">
                 <input
                   type="text"
                   placeholder="Nombres"
-                  className=" input input-bordered input-warning  w-full max-w-xs"
+                  className={styleForm.input}
                   {...register('nombre', {
                     required: true,
                   })}
@@ -59,7 +60,7 @@ export default function Contact() {
                 <input
                   type="text"
                   placeholder="Apellidos"
-                  className="input input-bordered input-warning text-black  w-full max-w-xs"
+                  className={styleForm.input}
                   {...register('apellido', {
                     required: true,
                   })}
@@ -89,7 +90,7 @@ export default function Contact() {
                 <input
                   type="mail"
                   placeholder="Email"
-                  className="input input-bordered input-warning  w-full max-w-xs text-black  "
+                  className={styleForm.input}
                   {...register('Email', {
                     pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
                   })}
@@ -99,7 +100,7 @@ export default function Contact() {
                     <div>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="stroke-current flex-shrink-0 h-6 w-6"
+                        className={styleForm.input}
                         fill="none"
                         viewBox="0 0 24 24"
                       >
@@ -116,10 +117,7 @@ export default function Contact() {
                 )}
               </div>
               <div className=" p-2 boxImput">
-                <select
-                  className=" p-2 boxImput text-black  "
-                  {...register('Pais')}
-                >
+                <select className={styleForm.input} {...register('Pais')}>
                   <option value="es">Colombia</option>
                   <option value="it">Italia</option>
                   <option value="fr">Francia</option>
@@ -128,10 +126,7 @@ export default function Contact() {
                   <option value="en">Otro</option>
                 </select>
               </div>
-              <div>
-                <label>¿ Incluir Telefono ?</label>
-                <input type="checkbox" {...register('includePhone')} />
-              </div>
+
               {includePhone && (
                 <div>
                   <label>Telefono</label>
@@ -141,13 +136,15 @@ export default function Contact() {
 
               <div className={styleForm.textArea}>
                 <textarea
-                  className="textarea textarea-warning text-black  "
+                  className={styleForm.input}
                   placeholder="Comentario"
                   {...register('Mensaje')}
                 ></textarea>
               </div>
             </div>
-            <button className="btn btn-accent m-5">Submit</button>
+            <div className={styleForm.buton}>
+              <button className={styleForm.btn}>Enviar</button>
+            </div>
           </form>
         </div>
       </div>
