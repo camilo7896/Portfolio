@@ -20,6 +20,7 @@ export default function Contact() {
   return (
     <>
       <h1 className={styles.title}>Contactame</h1>
+
       <div className={styleForm.containerForm}>
         {/* form */}
         <div className={styleForm.form}>
