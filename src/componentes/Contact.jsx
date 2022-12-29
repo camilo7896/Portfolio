@@ -29,6 +29,7 @@ export default function Contact() {
             <div className=" flex flex-col justify-center">
               <div className=" p-2 boxImput">
                 <input
+                  name="name"
                   type="text"
                   placeholder="Nombres"
                   className={styleForm.input}
@@ -59,6 +60,7 @@ export default function Contact() {
               </div>
               <div className=" p-2 boxImput">
                 <input
+                  name="apellido"
                   type="text"
                   placeholder="Apellidos"
                   className={styleForm.input}
@@ -89,6 +91,7 @@ export default function Contact() {
               </div>
               <div className=" p-2 boxImput">
                 <input
+                  name="email"
                   type="mail"
                   placeholder="Email"
                   className={styleForm.input}
