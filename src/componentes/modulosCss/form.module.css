@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    height: 32em;
 }
 
 .input {
@@ -43,4 +44,10 @@
     display: flex;
     justify-content: start;
     width: 100%;
+}
+
+@media only screen and (min-width: 1000px) {
+    .containerForm {
+        height: auto;
+    }
 }

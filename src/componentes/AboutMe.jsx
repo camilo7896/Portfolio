@@ -1,12 +1,11 @@
 import React from 'react'
-import styles from './modulosCss/global.module.css'
 import aboutStyle from './modulosCss/about.module.css'
 
 export default function AboutMe() {
   return (
     <>
       <div className={aboutStyle.containerPrincipal}>
-        <div class="text-center">
+        <div class={aboutStyle.title}>
           <h1 className={aboutStyle.title}>Sobre mi</h1>
         </div>
         <div className={aboutStyle.container}>
