@@ -33,7 +33,7 @@ export default function AboutMe() {
       </div>
 
       <div class={aboutStyle.title}>
-        <h1 className={aboutStyle.title}>Habilidades</h1>
+        <h1 className={aboutStyle.title}>Aptitudes</h1>
       </div>
       <Habilities />
     </>
