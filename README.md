@@ -7,6 +7,6 @@ He creado este portafolio personal aplicando los conocimientos adquiridos. En es
 Skills:  REACT / JS / HTML / CSS
 <hr>
 <h3>Demo: </h3>
- <a href="[https://www.youtube.com/](https://portfolio-6514.vercel.app/)">
+ <a href="https://portfolio-6514.vercel.app/">
   Ir al Demo
  </a>
