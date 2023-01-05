@@ -6,5 +6,7 @@ He creado este portafolio personal aplicando los conocimientos adquiridos. En es
 
 Skills:  REACT / JS / HTML / CSS
 <hr>
-<h3>Contacto: </h3>
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/www.linkedin.com/in/cristian-camilo-garcia-gutierrez-1713301a5/)  
+<h3>Demo: </h3>
+ <a href="[https://www.youtube.com/](https://portfolio-6514.vercel.app/)">
+  Ir al Demo
+ </a>
