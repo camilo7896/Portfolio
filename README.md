@@ -1,4 +1,4 @@
-### Hi there 👋, Mi nombre es Cristian Garcia
+### Hola 👋, Mi nombre es Cristian Garcia
 #### FrontEnd Developer
 ![FrontEnd Developer](https://i.ibb.co/Jq40hm7/portafolio.png)
 
