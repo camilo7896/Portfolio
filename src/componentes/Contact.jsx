@@ -26,7 +26,7 @@ export default function Contact() {
         <div className={styleForm.form}>
           {/* Formulario */}
           <form onSubmit={handleSubmit(onSubmit)}>
-            <div className=" flex flex-col justify-center">
+            <div className={styleForm.formImput}>
               <div className=" p-2 boxImput">
                 <input
                   name="name"

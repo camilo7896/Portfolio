@@ -13,7 +13,7 @@ export default function AboutMe() {
           <div className={aboutStyle.avatar}>
             <div className=" avatar flex-col justify-center">
               <div className=" ml-36 w-36 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                <img src="https://i.ibb.co/fkhxb1y/foto-perfil.jpg" />
+                <img src="https://i.ibb.co/zb5Xh8H/Imagen2.png" />
               </div>
             </div>
           </div>

@@ -49,6 +49,12 @@ function Footer() {
           </div>
         </div>
         <div>
+          <h6>Contactos</h6>
+          <ul>
+            <li>+57 3132361040</li>
+            <li>cg082490gmail.com</li>
+            <li>Sogamoso-Boyaca</li>
+          </ul>
           <p>Copyright © 2022 - Cristian</p>
         </div>
       </footer>
