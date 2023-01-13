@@ -53,7 +53,7 @@ function Navbar() {
         <div className="navbar-end">
           <div className="avatar">
             <div className="w-14 rounded-full">
-              <img src="https://i.ibb.co/fkhxb1y/foto-perfil.jpg" />
+              <img src="https://i.ibb.co/zb5Xh8H/Imagen2.png" />
             </div>
           </div>
         </div>
