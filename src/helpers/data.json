@@ -30,6 +30,14 @@
             "img": "https://i.ibb.co/Lxdn8Gp/dbz.png",
             "gitHub": "https://github.com/camilo7896/modificacion-de-sitio-web.git",
             "despliegue": "https://camilo7896.github.io/modificacion-de-sitio-web/#"
+        },
+        {
+            "id": 4,
+            "name": "Rick and Morty",
+            "description": "Proyecto en progreso. realizado consumiedo API Rick and Morty, utilizabdo Axios. ",
+            "img": "https://i.ibb.co/dP8WRBj/rick-and-morty.png",
+            "gitHub": "https://github.com/camilo7896/Rick-and-Morty.git",
+            "despliegue": "https://dapper-choux-b24cde.netlify.app/"
         }
     ]
 }
